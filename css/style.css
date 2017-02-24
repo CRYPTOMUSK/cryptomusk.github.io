@@ -45,12 +45,6 @@ button {
 	color: white;
 	display: block;
   margin: 0 auto;
-	background: url(../image/t.png) no-repeat right 50%;
-}
-
-button:hover {
-	transition: 12s;
-	background-size: 100% 100%;
 }
 
 .t-btn {
@@ -104,7 +98,6 @@ button:hover {
 	margin: 0 auto;
 	padding-bottom: 20px;
 	margin-bottom: 34px;
-	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.20);
 }
 
 .act {
@@ -184,10 +177,6 @@ button:hover {
 	padding: 6px 28px;
 }
 
-.proff-info h4 {
-	color: white;
-}
-
 .slider {
 	margin: 60px 0px;
 }
@@ -211,13 +200,10 @@ button:hover {
 
 .contacts {
 	background-color: #38556a;
-	margin-bottom: 45px;
-	padding-right: 0px;
-	padding-left: 0px;
 }
 
 .i-contacts {
- padding: 50px 0px 50px 95px;
+	margin: 50px 0px 50px 95px;
 }
 
 .i-contacts h4 {
@@ -260,33 +246,4 @@ input {
 	text-align: center;
 	margin: 8px 16px;
 	outline: none;
-}
-
-.i-maps {
-	padding-right: 0px;
-	padding-left: 0px;
-}
-
-footer h5 {
-	text-align: center;
-}
-
-@media screen and (max-width: 767px) {
-  .item img {
-    margin: 0 auto;
-  }
-	.item h4, .item p {
-		text-align: center;
-	}
-	input {
-		display: block;
-		margin: 0 auto;
-		margin-top: 8px;
-	}
-	ul {
-		font-size: 14px;
-	}
-	.navbar-brand {
-		display: none;
-	}
 }
