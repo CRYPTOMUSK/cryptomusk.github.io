@@ -32,8 +32,6 @@ ul > li {
 	color: white;
 }
 
-
-
 /* MENU */
 
 /* UI */
@@ -86,6 +84,14 @@ button:hover {
 
 .sale p {
 	margin-top: 24px;
+}
+
+.sales {
+	min-height: 322px;
+}
+
+.sales > .salesc {
+	margin-top: 88px;
 }
 
 .mlrt {
@@ -172,7 +178,7 @@ button:hover {
 	margin-bottom: 40px;
 }
 
-.proff h5 {
+.proff h5,.hp-cont h5 {
 	line-height: 120%;
 }
 
